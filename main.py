@@ -28,12 +28,12 @@ st.title("Which Fantasy World is Right for You?")
 st.write("Answer a few questions and get your fantasy book recommendation!")
 
 # Questions
-magic_world = st.selectbox("Do you like when magic is closely tied to the modern world?", ["Yes", "No"])
-epic_scale = st.selectbox("Are you attracted to epic wars and the struggle between good and evil?", ["Yes", "No"])
-politics = st.selectbox("Do you enjoy stories with intrigue, power struggles, and unexpected twists?", ["Yes", "No"])
-monsters = st.selectbox("Are you interested in stories about monsters and monster hunters, like witchers?", ["Yes", "No"])
-myths = st.selectbox("Are you interested in adventures where ancient myths come to life?", ["Yes", "No"])
-portal_world = st.selectbox("Do you like stories where characters enter magical worlds through portals or wardrobes?", ["Yes", "No"])
+weather = st.selectbox("Is the weather ousidde cold 0-10?", ["Yes", "No"])
+rain = st.selectbox("Is it rainy outside?", ["Yes", "No"])
+size = st.selectbox("Which clothes out of the following do you like more?", ["Oversized", "Tight", "Something in between"])
+shade = st.selectbox("Do you prefer dark or bright colors when choosing clothes?", ["Dark", "Bright"])
+color = st.selectbox("What color out of the following do you like the most?", ["Shades of green", "YELLLOW and orange" "shades of blue and purple" "shades of red" "black & white"])
+style = st.selectbox("What do you usually wear?", ["Something like an oversized sweater, tousers or a skirt", "Something smart casual, like a shirt, dark skirt or trousers" "Something girly and soft" "Something like sun, yellow and orange, maybe a dress" "something sporty"])
 
 # Recomendation
 recommendation = ""
